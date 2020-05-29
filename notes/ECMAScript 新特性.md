@@ -114,7 +114,7 @@ const address = 'jiangsu suzhou';
 
 function tagFun(strings, name, addrss){
   // strings 是一个数组，这里就是 result 被 ${name}， ${address} 分割的字符数组
-  // 答应结果是 [ 'hi, ', ', my address is ', '' ] 'xiaodaidai' 'jiangsu suzhou'
+  // 打印结果是 [ 'hi, ', ', my address is ', '' ] 'xiaodaidai' 'jiangsu suzhou'
   console.log(strings, name, address)
   return strings[0] + name + strings[1] + address + strings[2];
 }
@@ -151,7 +151,7 @@ Object.is(NaN, NaN) // true
 参数默认值
 
 ```javascript
-function defaultParams(paramA, paramB = true) {} // 带我默认值的参数必须在最后面
+function defaultParams(paramA, paramB = true) {} // 带有默认值的参数必须在最后面
 ```
 
 剩余参数
