@@ -39,7 +39,7 @@ console.log('global end');
 - event-loop 消息队列
 - web api ，setTimeout、ajax 请求
 
-![event-loop](/Users/kenny/work/kenny/workplace/training/training-01-01/static/event-loop.png)
+![event-loop](../static/event-loop.png)
 
 - 同步代码在调用栈中执行，当调用栈执行完毕之后， 消息队列会将队列中任务压入调用栈开启下一轮代码执行
 - 以 setTimeout 为例，当代码遇到 setTimeout 时，浏览器首先会开启一个定时器，当等待时间结束后，会把 setTimeout 的回调函数压入消息队列，等待调用执行完毕后执行
